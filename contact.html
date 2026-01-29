@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with TravelPro - We're here to help plan your perfect journey. Contact us today!">
+    <title>Contact Us - TravelPro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">
+                    <img src="logo.png" alt="FlyFaiTrip Logo">
+                    <span>FLYFAI<span class="trip-text">TRIP</span></span>
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact FlyFaiTrip</h1>
+            <p>Get in touch with us for bookings and inquiries | GST No: 07ACVPF7731L1ZO</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Send Your Inquiry</h2>
+                    <p style="margin-bottom: 25px; color: #6b7280;">Fill out the form below and we'll get back to you within 24 hours</p>
+                    <form class="contact-form" id="contactForm" action="submit_contact.php" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="10-digit mobile number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="destination">Interested In *</label>
+                            <select id="destination" name="destination" required>
+                                <option value="">Select your preference</option>
+                                <optgroup label="Flight Services">
+                                    <option value="domestic-flight">Domestic Flight Tickets</option>
+                                    <option value="international-flight">International Flight Tickets</option>
+                                </optgroup>
+                                <optgroup label="Hajj & Umrah">
+                                    <option value="hajj">Hajj Packages</option>
+                                    <option value="umrah">Umrah Packages</option>
+                                </optgroup>
+                                <optgroup label="Visa Services">
+                                    <option value="dubai-visa">Dubai Visa</option>
+                                    <option value="turkey-visa">Turkey Visa</option>
+                                    <option value="singapore-visa">Singapore Visa</option>
+                                    <option value="thailand-visa">Thailand Visa</option>
+                                    <option value="other-visa">Other Country Visa</option>
+                                </optgroup>
+                                <optgroup label="Holiday Packages">
+                                    <option value="dubai-package">Dubai Package</option>
+                                    <option value="maldives-package">Maldives Package</option>
+                                    <option value="bali-package">Bali Package</option>
+                                    <option value="singapore-package">Singapore Package</option>
+                                    <option value="thailand-package">Thailand Package</option>
+                                    <option value="kashmir-package">Kashmir Package</option>
+                                    <option value="kerala-package">Kerala Package</option>
+                                    <option value="himachal-package">Himachal Package</option>
+                                </optgroup>
+                                <optgroup label="Other Services">
+                                    <option value="hotel-booking">Hotel Booking</option>
+                                    <option value="cruise">Cruise Packages</option>
+                                    <option value="insurance">Travel Insurance</option>
+                                    <option value="bus-service">Bus Services</option>
+                                    <option value="passport">Passport Services</option>
+                                    <option value="pan-card">PAN Card</option>
+                                    <option value="visa-stamping">Visa Stamping</option>
+                                    <option value="ok-to-board">OK to Board</option>
+                                    <option value="dummy-ticket">Dummy Ticket</option>
+                                    <option value="money-transfer">Money Transfer</option>
+                                </optgroup>
+                                <option value="custom">Custom Package</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your travel plans, budget, dates, etc." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit Inquiry</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-wrapper">
+                    <h2>Contact Information</h2>
+                    <p style="margin-bottom: 30px; color: #6b7280;">Reach out to us through any of these channels</p>
+                    <div class="contact-info-cards">
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>Call Us</h3>
+                                <p>+91 7042582487</p>
+                                <p>+91 8506969008</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>Email Us</h3>
+                                <p>flyfaitriptravels@gmail.com</p>
+                                <p>bookings@flyfaitrip.com</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>Visit Office</h3>
+                                <p>R-2/34, Street Main Road Export Market,</p>
+                                <p>Laxmi Nagar, East-Delhi-110092</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="info-content">
+                                <h3>Working Hours</h3>
+                                <p>Monday - Saturday</p>
+                                <p>9:00 AM - 8:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-section">
+                        <h3>Follow Us on Social Media</h3>
+                        <div class="social-links-large">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2>Find Our Office</h2>
+            <div class="map-wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224357.49840167607!2d77.04417084453125!3d28.52758805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1642345678901!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" title="FlyFaiTrip Office Location - Delhi, India"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <a href="index.html" class="footer-logo">
+                        <img src="logo.png" alt="FlyFaiTrip Logo">
+                        <span>FLYFAI<span class="trip-text">TRIP</span></span>
+                    </a>
+                    <p>Creating extraordinary travel experiences since 2020. Your journey begins here.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://wa.me/918506969008" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-phone"></i> +91 8506969008</li>
+                        <li><i class="fas fa-phone"></i> +91 7042582487</li>
+                        <li><i class="fas fa-envelope"></i> flyfaitriptravels@gmail.com</li>
+                        <li><i class="fas fa-globe"></i> flyfaitriptravels.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Delhi, India</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 <strong>FlyFaiTrip</strong>. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
